@@ -14,6 +14,6 @@ while True:
     msg_received = s.recv(1024)
     print "Server: ", msg_received
     if msg_received.lower() == "bye":
-	      break
+        break
 
 s.close()
